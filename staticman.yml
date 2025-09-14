@@ -1,0 +1,7 @@
+allowedFields: ["word1", "word2"]
+branch: "main" # the branch to push to
+format: "json" # store entries as JSON files
+path: "_data/words/"
+filename: "{@timestamp}.json"
+moderation: true
+commitMessage: "Add new words to practice {@timestamp}"
